@@ -1,0 +1,7 @@
+extends layout.pug
+block content
+    div#Fname
+        h1=rows[0].filename
+    each n in rows
+        a(href=`/download/?name=${n.filename}&ver=${n.version}`)
+            button=n.version

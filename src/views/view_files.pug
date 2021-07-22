@@ -1,0 +1,13 @@
+extends layout.pug
+block content
+    link(rel = "stylesheet" href="/css/allImages.css")
+            
+    table
+        tr 
+            th File-name 
+            th No-of-Versions
+        each n in rows 
+            tr 
+                th
+                    a(id=`${n.filename}` href=`/Ver/?name=${n.filename}`)=n.filename 
+                th=n.TotalImages
