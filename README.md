@@ -7,7 +7,7 @@ Succesfully met your requiremtns by using nodejs,database management,reactjs and
 Database Credentials are apppended in start.js. Please logon to the credentials before proceding.
 
 
-Database used In MySQL.
+Database created using MySQL.
 
 Having Queriers?
 
